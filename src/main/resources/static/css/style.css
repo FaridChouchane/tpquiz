@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;500&display=swap');
+
+body {
+	font-family: 'Raleway', sans-serif;
+	max-width: 800px;
+	margin: 0 auto;
+	background: #f2f2f2;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	font-weight: 500;
+}
+
+a,
+button {
+	display: block;
+	padding: 16px 48px;
+	border-radius: 16px;
+	background: #93b7d5;
+	border: 3px solid #b2d8ff;
+	color: #e0ffd7;
+	margin: 0 auto;
+	text-decoration: none;
+	width: min-content;
+	outline: none;
+	cursor: pointer;
+	font-size: 16px;
+	box-shadow: 0 0 10px 0px #b2d8ff;
+}
+
+p.pays {
+	border: 3px solid #e6eee9;
+	padding: 10px 24px;
+	max-width: 75%;
+	margin: 14px auto;
+	border-radius: 16px;
+	background: #9bbea9;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+
+p.win, p.lose {
+	font-size: 38px;
+	font-weight: 200;
+	border: 3px solid #e6eee9;
+	background: #9bbea9;
+	color: white;
+	padding: 10px 24px;
+	text-align: center;
+	width: max-content;
+	margin: 44px auto;
+}
+
+p.lose {
+	background: #f8d6b8;
+	border: 3px solid #fdf4ed;
+	color: #0063b2;
+}
+
+a:hover,
+button:hover {
+	text-decoration: underline;
+}
+
+div {
+	max-width: 350px;
+	margin: 14px auto;
+}
+
+div:first-child {
+	margin-top: 24px;
+}
+
+button {
+	margin-top: 24px;
+}
+
+label {
+	cursor: pointer;
+	padding: 6px 12px;
+}
