@@ -1,6 +1,6 @@
-package com.tpquiz.tpquiz.repository;
+package tp.quiz.repository;
 
-import com.tpquiz.tpquiz.entity.Countrie;
+import tp.quiz.entity.Countrie;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CountrieRepository extends JpaRepository<Countrie, Integer> {

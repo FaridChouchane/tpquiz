@@ -1,7 +1,6 @@
-package com.tpquiz.tpquiz.entity;
+package tp.quiz.entity;
 
 import jakarta.persistence.Id;
-//import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -12,8 +11,7 @@ import jakarta.persistence.GenerationType;
 public class Countrie {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
-	//@SequenceGenerator(name = "countries_seq", sequenceName = "countries_seq")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	public Integer id;
 
 	public String name;
