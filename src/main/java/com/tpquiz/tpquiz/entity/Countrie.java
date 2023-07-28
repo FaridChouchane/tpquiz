@@ -10,7 +10,7 @@ import jakarta.persistence.GenerationType;
 @Table(name = "countries")
 public class Countrie {
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	public Integer id;
 
 	public String name;
